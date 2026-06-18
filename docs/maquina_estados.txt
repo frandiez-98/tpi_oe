@@ -1,0 +1,98 @@
+# MÁQUINA DE ESTADOS DEL CHATBOT
+
+La máquina de estados permite que el chatbot conozca en qué etapa del proceso de solicitud de vacaciones se encuentra cada empleado y pueda responder de manera adecuada según el contexto de la conversación.
+
+## Estados del sistema
+
+### 1. INICIO
+
+Estado inicial del proceso. El usuario inicia la conversación con el chatbot mediante un comando de inicio.
+
+**Transición:** → ESPERANDO_LEGAJO
+
+### 2. ESPERANDO_LEGAJO
+
+El chatbot solicita al empleado que ingrese su número de legajo para identificarse.
+
+**Transición:** → VALIDANDO_LEGAJO
+
+### 3. VALIDANDO_LEGAJO
+
+El sistema consulta la base de datos para verificar que el legajo exista.
+
+**Posibles resultados:**
+
+* Si el legajo existe → ESPERANDO_SOLICITUD
+* Si el legajo no existe → ERROR_LEGAJO
+
+### 4. ERROR_LEGAJO
+
+El chatbot informa que el legajo ingresado no es válido y solicita un nuevo ingreso.
+
+**Transición:** → ESPERANDO_LEGAJO
+
+### 5. ESPERANDO_SOLICITUD
+
+El chatbot solicita la fecha de inicio y la cantidad de días de vacaciones requeridos.
+
+**Transición:** → VALIDANDO_SALDO
+
+### 6. VALIDANDO_SALDO
+
+El sistema compara los días solicitados con los días disponibles del empleado.
+
+**Posibles resultados:**
+
+* Si el saldo es suficiente → PENDIENTE_APROBACION
+* Si el saldo es insuficiente → ERROR_SALDO
+
+### 7. ERROR_SALDO
+
+El chatbot informa la cantidad de días disponibles y solicita una nueva cantidad válida.
+
+**Transición:** → ESPERANDO_SOLICITUD
+
+### 8. PENDIENTE_APROBACION
+
+La solicitud queda registrada en la base de datos con estado "Pendiente" y es enviada al supervisor correspondiente para su revisión.
+
+**Posibles resultados:**
+
+* Supervisor aprueba → APROBADO
+* Supervisor rechaza → RECHAZADO
+
+### 9. APROBADO
+
+El chatbot actualiza la base de datos, descuenta los días solicitados y notifica al empleado la aprobación de la solicitud.
+
+**Transición:** → FIN
+
+### 10. RECHAZADO
+
+El chatbot actualiza el estado de la solicitud a "Rechazado" y notifica al empleado.
+
+**Transición:** → FIN
+
+### 11. FIN
+
+Estado final del proceso.
+
+
+
+INICIO
+↓
+ESPERANDO_LEGAJO
+↓
+VALIDANDO_LEGAJO
+├── ERROR_LEGAJO
+└── ESPERANDO_SOLICITUD
+        ↓
+VALIDANDO_SALDO
+├── ERROR_SALDO
+└── PENDIENTE_APROBACION
+          ↓
+     APROBADO
+          o
+     RECHAZADO
+          ↓
+          FIN
