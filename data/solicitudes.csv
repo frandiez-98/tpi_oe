@@ -1,0 +1,6 @@
+﻿ID_Solicitud;Legajo;Empleado;Fecha_Inicio;Días_Solicitados;Estado
+1;1002;Juan Pérez;2026-07-07;5;Aprobado
+2;1007;Matías López;2026-07-15;10;Rechazado
+3;2002;Ana López;2026-08-01;3;Pendiente
+4;1015;Mariano Sosa;2026-08-10;7;Aprobado
+5;2010;Paula Navarro;2026-09-05;5;Pendiente

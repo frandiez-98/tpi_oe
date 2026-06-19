@@ -1,0 +1,51 @@
+﻿Legajo;Nombre;Puesto;Área;Supervisor;Días_Disponibles
+1001;Roberto Fernández;Jefe de Operaciones y Logística;Operativa y Logística;Director General;20
+1002;Juan Pérez;Chofer de Larga Distancia;Operativa y Logística;Jefe de Operaciones y Logística;8
+1003;Carlos Gómez;Chofer de Corta Distancia;Operativa y Logística;Jefe de Operaciones y Logística;10
+1004;Miguel Rodríguez;Operario de Depósito;Operativa y Logística;Jefe de Operaciones y Logística;0
+1005;Diego Fernández;Picker;Operativa y Logística;Jefe de Operaciones y Logística;15
+1006;Lucas Martínez;Clarkista;Operativa y Logística;Jefe de Operaciones y Logística;20
+1007;Matías López;Chofer de Larga Distancia;Operativa y Logística;Jefe de Operaciones y Logística;8
+1008;Nicolás Romero;Chofer de Corta Distancia;Operativa y Logística;Jefe de Operaciones y Logística;10
+1009;Javier Torres;Operario de Depósito;Operativa y Logística;Jefe de Operaciones y Logística;12
+1010;Pablo Díaz;Picker;Operativa y Logística;Jefe de Operaciones y Logística;15
+1011;Fernando Castro;Clarkista;Operativa y Logística;Jefe de Operaciones y Logística;3
+1012;Sergio Ruiz;Chofer de Larga Distancia;Operativa y Logística;Jefe de Operaciones y Logística;8
+1013;Hernán Vega;Chofer de Corta Distancia;Operativa y Logística;Jefe de Operaciones y Logística;10
+1014;Adrián Benítez;Operario de Depósito;Operativa y Logística;Jefe de Operaciones y Logística;12
+1015;Gustavo Acosta;Picker;Operativa y Logística;Jefe de Operaciones y Logística;15
+1016;Mariano Sosa;Clarkista;Operativa y Logística;Jefe de Operaciones y Logística;20
+1017;Ricardo Medina;Chofer de Larga Distancia;Operativa y Logística;Jefe de Operaciones y Logística;0
+1018;Walter Rojas;Chofer de Corta Distancia;Operativa y Logística;Jefe de Operaciones y Logística;10
+1019;Daniel Pereyra;Operario de Depósito;Operativa y Logística;Jefe de Operaciones y Logística;12
+1020;Jorge Cabrera;Picker;Operativa y Logística;Jefe de Operaciones y Logística;15
+1021;Cristian Silva;Clarkista;Operativa y Logística;Jefe de Operaciones y Logística;20
+1022;Emiliano Núñez;Chofer de Larga Distancia;Operativa y Logística;Jefe de Operaciones y Logística;8
+1023;Ramiro Quiroga;Chofer de Corta Distancia;Operativa y Logística;Jefe de Operaciones y Logística;10
+1024;Leandro Molina;Operario de Depósito;Operativa y Logística;Jefe de Operaciones y Logística;12
+1025;Federico Arias;Picker;Operativa y Logística;Jefe de Operaciones y Logística;2
+1026;Gabriel Navarro;Clarkista;Operativa y Logística;Jefe de Operaciones y Logística;20
+1027;Esteban Herrera;Chofer de Larga Distancia;Operativa y Logística;Jefe de Operaciones y Logística;8
+1028;Tomás Ibarra;Chofer de Corta Distancia;Operativa y Logística;Jefe de Operaciones y Logística;10
+1029;Bruno Campos;Operario de Depósito;Operativa y Logística;Jefe de Operaciones y Logística;2
+1030;Kevin Moreno;Picker;Operativa y Logística;Jefe de Operaciones y Logística;15
+1031;Alan Suárez;Clarkista;Operativa y Logística;Jefe de Operaciones y Logística;20
+1032;Franco Giménez;Chofer de Larga Distancia;Operativa y Logística;Jefe de Operaciones y Logística;8
+1033;Ezequiel Funes;Chofer de Corta Distancia;Operativa y Logística;Jefe de Operaciones y Logística;10
+1034;Nahuel Varela;Operario de Depósito;Operativa y Logística;Jefe de Operaciones y Logística;12
+1035;Iván Godoy;Picker;Operativa y Logística;Jefe de Operaciones y Logística;15
+2001;Laura Gómez;Gerente Comercial y Administrativo;Comercial y Administración;Director General;20
+2002;Ana López;Vendedor;Comercial y Administración;Gerente Comercial y Administrativo;8
+2003;María González;Facturista;Comercial y Administración;Gerente Comercial y Administrativo;10
+2004;Valentina Díaz;Administrativo de Compras;Comercial y Administración;Gerente Comercial y Administrativo;12
+2005;Sofía Ramírez;Atención al Cliente;Comercial y Administración;Gerente Comercial y Administrativo;15
+2006;Camila Herrera;Vendedor;Comercial y Administración;Gerente Comercial y Administrativo;8
+2007;Julieta Morales;Facturista;Comercial y Administración;Gerente Comercial y Administrativo;1
+2008;Lucía Torres;Administrativo de Compras;Comercial y Administración;Gerente Comercial y Administrativo;12
+2009;Paula Navarro;Atención al Cliente;Comercial y Administración;Gerente Comercial y Administrativo;15
+2010;Micaela Castro;Vendedor;Comercial y Administración;Gerente Comercial y Administrativo;8
+2011;Carolina Vega;Facturista;Comercial y Administración;Gerente Comercial y Administrativo;10
+2012;Agustina Benítez;Administrativo de Compras;Comercial y Administración;Gerente Comercial y Administrativo;12
+2013;Florencia Sosa;Atención al Cliente;Comercial y Administración;Gerente Comercial y Administrativo;15
+3001;Martín López;Encargado de RRHH;Soporte y Dirección;Director General;3
+3002;Sofía Martínez;Director General;Soporte y Dirección;-;20
