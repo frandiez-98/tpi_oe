@@ -32,11 +32,9 @@ La solución propuesta modela el proceso utilizando BPMN 2.0 y simula la interac
 
 
 
-\* Python
+\* Python (bot simulado)
 
-\* Telegram Bot API (simulado)
-
-\* Excel como base de datos simulada
+\* Excel con csv como base de datos simulada
 
 \* BPMN 2.0 para modelado de procesos
 
