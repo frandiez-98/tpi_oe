@@ -5,3 +5,6 @@ ID_Solicitud,Legajo,Empleado,Fecha_Inicio,Días_Solicitados,Estado
 4,1015,Mariano Sosa,2026-08-10,7,Aprobado
 5,2010,Paula Navarro,2026-09-05,5,Pendiente
 6,1002,Juan Pérez,2026-07-14,5,Rechazado
+7,1002,Juan Pérez,2026-10-12,5,Aprobado
+8,1001,Roberto Fernández,2026-10-15,2,Aprobado
+9,1002,Juan Pérez,2026-08-20,3,Aprobado

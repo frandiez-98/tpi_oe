@@ -76,7 +76,7 @@ def simulador_bot():
     días_solicitados = 0
     while True:
         try:
-            días_input = input(f"\¿Cuántos días desea solicitar? (Máximo {saldo_actual}): ").strip()
+            días_input = input(f"¿Cuántos días desea solicitar? (Máximo {saldo_actual}): ").strip()
             días_solicitados = int(días_input)
             
             if días_solicitados <= 0:
@@ -142,6 +142,17 @@ def simulador_bot():
     # Persistencia: Guardar de vuelta en los archivos CSV correspondientes
     if guardar_datos(df_empleados, df_solicitudes):
         print("Archivos de DistriSur actualizados correctamente en la carpeta 'data'.")
+        
+        print(" PANTALLA DEL SOLICITANTE ")
+        print(f"NOTIFICACIÓN ENVIADA A: {empleado_encontrado['Nombre']} (Legajo {legajo})")
+        if estado_final == "Aprobado":
+            print(f" Hola {empleado_encontrado['Nombre']}, tu solicitud de vacaciones por {días_solicitados} días")
+            print(f"   a partir del {fecha_inicio} ha sido aprobada por tu supervisor [{supervisor}].")
+            print(f"   Tu nuevo saldo disponible es de {saldo_actual - días_solicitados} días.")
+        else:
+            print(f"Hola {empleado_encontrado['Nombre']}, te informamos que tu solicitud de vacaciones")
+            print(f" para el {fecha_inicio} ha sido rechazada por tu supervisor [{supervisor}].")
+            print(f"Tu saldo se mantiene en {saldo_actual} días disponibles.")
     else:
         print("Ocurrió un problema al guardar los datos.")
 

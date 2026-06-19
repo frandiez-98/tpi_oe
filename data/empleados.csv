@@ -1,6 +1,6 @@
 Legajo,Nombre,Puesto,Área,Supervisor,Días_Disponibles
-1001,Roberto Fernández,Jefe de Operaciones y Logística,Operativa y Logística,Director General,20
-1002,Juan Pérez,Chofer de Larga Distancia,Operativa y Logística,Jefe de Operaciones y Logística,8
+1001,Roberto Fernández,Jefe de Operaciones y Logística,Operativa y Logística,Director General,18
+1002,Juan Pérez,Chofer de Larga Distancia,Operativa y Logística,Jefe de Operaciones y Logística,0
 1003,Carlos Gómez,Chofer de Corta Distancia,Operativa y Logística,Jefe de Operaciones y Logística,10
 1004,Miguel Rodríguez,Operario de Depósito,Operativa y Logística,Jefe de Operaciones y Logística,0
 1005,Diego Fernández,Picker,Operativa y Logística,Jefe de Operaciones y Logística,15
