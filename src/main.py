@@ -78,7 +78,6 @@ def simulador_bot():
         try:
             días_input = input(f"¿Cuántos días desea solicitar? (Máximo {saldo_actual}): ").strip()
             días_solicitados = int(días_input)
-            
             if días_solicitados <= 0:
                 print("La cantidad de días debe ser mayor a 0.")
             elif días_solicitados > saldo_actual:
