@@ -1,0 +1,32 @@
+# DICCIONARIO DE DATOS
+
+## Archivo: empleados.csv
+
+| Campo            | Tipo   | Descripción                                |
+| ---------------- | ------ | ------------------------------------------ |
+| Legajo           | Entero | Identificador único del empleado           |
+| Nombre           | Texto  | Nombre y apellido del empleado             |
+| Puesto           | Texto  | Cargo que ocupa dentro de la empresa       |
+| Área             | Texto  | Sector al que pertenece                    |
+| Supervisor       | Texto  | Supervisor responsable del empleado        |
+| Días_Disponibles | Entero | Cantidad de días de vacaciones disponibles |
+
+### Ejemplo
+
+1001;Roberto Fernández;Jefe de Operaciones y Logística;Operativa y Logística;Director General;20
+
+---
+
+## Archivo: solicitudes.csv
+
+| Campo            | Tipo   | Descripción                                              |
+| ---------------- | ------ | -------------------------------------------------------- |
+| ID_Solicitud     | Entero | Identificador único de la solicitud                      |
+| Legajo           | Entero | Legajo del empleado solicitante                          |
+| Fecha_Inicio     | Fecha  | Fecha de inicio de las vacaciones                        |
+| Dias_Solicitados | Entero | Cantidad de días solicitados                             |
+| Estado           | Texto  | Estado de la solicitud (Pendiente, Aprobado o Rechazado) |
+
+### Ejemplo
+
+1;1005;2026-07-01;5;Pendiente

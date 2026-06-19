@@ -1,0 +1,58 @@
+# MANUAL DE USUARIO
+
+## Objetivo
+
+El chatbot permite gestionar solicitudes de vacaciones para los empleados de DistriSur Logística S.A., automatizando la validación de saldos y el registro de solicitudes.
+
+## Funcionamiento
+
+### Paso 1: Ingreso de legajo
+
+El usuario ingresa su número de legajo para identificarse.
+
+Ejemplo:
+
+Ingrese su legajo: 1001
+
+### Paso 2: Consulta de saldo
+
+El sistema muestra los días de vacaciones disponibles para el empleado.
+
+Ejemplo:
+
+Bienvenido Roberto Fernández
+
+Días disponibles: 20
+
+### Paso 3: Solicitud de vacaciones
+
+El usuario indica la cantidad de días que desea solicitar.
+
+Ejemplo:
+
+¿Cuántos días desea solicitar?: 5
+
+### Paso 4: Validación
+
+El sistema verifica que la cantidad solicitada no supere el saldo disponible.
+
+Posibles resultados:
+
+* Solicitud aceptada.
+* Saldo insuficiente.
+* Legajo inexistente.
+* Error por ingreso de datos inválidos.
+
+## Manejo de errores
+
+### Legajo inexistente
+
+ERROR: Legajo inexistente.
+
+### Días superiores al saldo
+
+ERROR: Saldo insuficiente.
+
+### Ingreso de texto en lugar de número
+
+ERROR: Debe ingresar un número entero.
